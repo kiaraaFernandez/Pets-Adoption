@@ -12,6 +12,8 @@
 * Scrum Methodology
 * Project Status
 * Future Improvements
+* Contribuitors
+* Contact
 
 
 ---
