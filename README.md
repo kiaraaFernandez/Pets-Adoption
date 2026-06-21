@@ -1,5 +1,21 @@
 # 🐾 Pets Adoption
 
+---
+
+## Index
+
+* Overview
+* Features
+* Technologies Used
+* Project Structure
+* Objectives
+* Scrum Methodology
+* Project Status
+* Future Improvements
+
+
+---
+
 ## Overview
 
 Pets Adoption is a web application designed for animal shelters to showcase pets available for adoption and help potential adopters find their future companions.
@@ -22,8 +38,8 @@ The website provides information about available animals, pet care recommendatio
 
 ## Technologies Used
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 
 ---
 
@@ -33,7 +49,7 @@ The website provides information about available animals, pet care recommendatio
 Pets-Adoption/
 │
 ├── index.html
-├── styles.css
+├── style.css
 │
 └── images/
     ├── dog1.jpg
@@ -41,20 +57,6 @@ Pets-Adoption/
     ├── cat1.jpg
     └── ...
 ```
-
----
-
-## Adoption Process
-
-The adoption process consists of the following steps:
-
-1. Browse available pets.
-2. Select a pet of interest.
-3. Complete the adoption form.
-4. Application review.
-5. Interview with the adoption team.
-6. Adoption approval and pet placement.
-7. Post-adoption follow-up.
 
 ---
 
@@ -91,12 +93,28 @@ This project was developed following Scrum principles.
 * Implements features and improvements.
 * Delivers working increments during each sprint.
 
-### User Stories
+---
 
-* As a visitor, I want to view available pets so that I can choose one to adopt.
-* As a visitor, I want to read pet care tips so that I can better understand animal needs.
-* As a visitor, I want to complete an adoption form so that I can start the adoption process.
-* As a shelter administrator, I want to display adoption success stories so that more people are encouraged to adopt.
+## Project Status
+
+### Current Status: Completed ✅
+
+The Pets Adoption website has successfully completed its development phase and all planned core features have been implemented.
+
+The platform currently provides:
+
+* A homepage introducing the shelter and its mission.
+* A catalog of pets available for adoption.
+* Pet care recommendations and educational content.
+* A detailed adoption process section.
+* An adoption request form.
+* Adoption success stories.
+
+The project is considered fully functional and ready for deployment. Future testing and feedback from users may lead to additional improvements and new features.
+
+The development team hopes that the platform will soon begin to be used by animal shelters and potential adopters, helping rescued pets find safe and loving homes.
+
+This project represents an important step toward promoting responsible pet adoption and increasing awareness about animal welfare in the community.
 
 ---
 
@@ -109,8 +127,4 @@ This project was developed following Scrum principles.
 * Shelter administration dashboard.
 
 ---
-
-## Author
-
-Developed as an academic Scrum project focused on animal adoption awareness and web development practices.
 
