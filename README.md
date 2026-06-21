@@ -128,3 +128,15 @@ This project represents an important step toward promoting responsible pet adopt
 
 ---
 
+## Contribuitors
+
+Developed as an academic Scrum project (2026) focused on animal adoption awareness and web development practices.
+
+---
+
+## Contact
+
+* E-mail: happypawsshelter@gmail.com
+* Phone number: +54 351 1234567
+* © 2026 Happy Paws Shelter
+
