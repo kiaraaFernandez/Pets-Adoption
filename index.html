@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>🐾 Happy Paws Shelter</h1>
+        <p>Find your new best friend</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Pets">Pets</a></li>
+            <li><a href="#Adoption">Adoption</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="Menu">
+        <h2>Welcome</h2>
+        <p>
+            We are a shelter in Punilla for animals in need. We provide veterinary care and are looking for responsible families. We hope you can connect with one of them.
+        </p>
+    
+        <section id="proceso-adopcion">
+            <h2>Adoption Process</h2>
+            <p class="descripcion-proceso">
+                Our adoption process aims to make sure every pet finds a responsible home that suits their needs.
+            </p>
+
+        <div class="contenedor-proceso">
+
+        <div class="tarjeta-paso">
+            <span class="numero">1</span>
+            <h3>Explore</h3>
+            <p>Meet our available pets and find out which one could be your ideal companion.</p>
+        </div>
+
+        <div class="tarjeta-paso">
+            <span class="numero">2</span>
+            <h3>Form</h3>
+            <p>Fill out the adoption application indicating the pet you're interested in.</p>
+        </div>
+
+        <div class="tarjeta-paso">
+            <span class="numero">3</span>
+            <h3>Review</h3>
+            <p>Our team will look over your request and get in touch with you.</p>
+        </div>
+
+        <div class="tarjeta-paso">
+            <span class="numero">4</span>
+            <h3>Interview</h3>
+            <p>We did a short interview to get to know the environment where the pet will live.</p>
+        </div>
+
+        <div class="tarjeta-paso">
+            <span class="numero">5</span>
+            <h3>Adoption</h3>
+            <p>Once the application is approved, we coordinate the delivery and adjustment to the new home.</p>
+        </div>
+
+        <div class="tarjeta-paso">
+            <span class="numero">6</span>
+            <h3>Follow-up</h3>
+            <p>We continue supporting the family to ensure a successful adaptation.</p>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section id="cuidados">
+        <h2>Basic Pet Care</h2>
+        <div class="contenedor-cuidados">
+
+        <div class="tarjeta-cuidado">
+            <h3>💧 Fresh water</h3>
+            <p>
+                Make sure your pet always has access to clean, fresh water to stay hydrated.
+            </p>
+        </div>
+
+        <div class="tarjeta-cuidado">
+            <h3>🍖 Feeding</h3>
+            <p>
+                It provides a balanced diet appropriate for their age, size, and activity level.
+            </p>
+        </div>
+
+        <div class="tarjeta-cuidado">
+            <h3>🏥 Health</h3>
+            <p>
+                Keep up to date on vaccinations, veterinary check-ups, and deworming to prevent diseases.
+            </p>
+        </div>
+
+        <div class="tarjeta-cuidado">
+            <h3>🎾 Physical exercise</h3>
+            <p>
+                Play and physical activity help maintain good physical and emotional health.
+            </p>
+        </div>
+
+        <div class="tarjeta-cuidado">
+            <h3>🧼 Hygiene</h3>
+            <p>
+                Keep their space clean and provide the necessary care for their fur, teeth, and nails.
+            </p>
+        </div>
+
+        <div class="tarjeta-cuidado">
+            <h3>❤️ Love</h3>
+            <p>
+                Pets need attention, companionship, and affection to develop happily and safely.            
+            </p>
+        </div>
+        </div>
+    </section>
+    </section>
+
+    <section id="Pets">
+        <h2>Pets available</h2>
+        <div class="contenedor-mascotas">
+            <div class="tarjeta">
+
+                <div class="info">
+                    <img src="img/golden.jfif" alt="Golden Retriever">
+                    <span class="etiqueta">🐶 Dog • 3 years old</span>
+                    <h3>Max</h3>
+                    <p>
+                        Playful, friendly, and full of energy.
+                        He loves walks and playing with children.
+                    </p>
+                    <button>Adopt Max</button>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="info">
+                    <img src="img/gata.jfif" alt="Foto de Luna">
+                    <span class="etiqueta">🐱 Cat • 1 yearr old</span>
+                    <h3>Luna</h3>
+                    <p>
+                        Very calm and affectionate.
+                        Ideal for homes looking for companionship.
+                    </p>
+                    <button>Adopt Luna</button>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="info">
+                    <img src="img/perrito.jfif" alt="Foto de Rocky">
+                    <span class="etiqueta">🐶 Dog • 2 years old</span>
+                    <h3>Rocky</h3>
+                    <p>
+                        Curious and adventurous.
+                        Always ready to play and learn.
+                    </p>
+                    <button>Adopt a Rocky</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Adoption">
+        <h2>Adoption Form</h2>
+
+        <form>
+            <label for="name">Full name:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone number">Phone number:</label>
+            <input type="tel" id="telefono">
+
+            <label for="pet">Pet of interest:</label>
+            <select id="pet">
+                <option>Max</option>
+                <option>Luna</option>
+                <option>Rocky</option>
+            </select>
+
+            <label for="message">Why do you want to adopt?</label>
+            <textarea id="message" rows="5"></textarea>
+
+            <button type="submit">Send request</button>
+
+        </form>
+
+    </section>
+
+    <footer id="Contact">
+        <p>E-mail: happypawsshelter@gmail.com</p>
+        <p>Phone number: +54 351 1234567</p>
+        <p>© 2026 Happy Paws Shelter</p>
+    </footer>
+
+</body>
+
+</html>
